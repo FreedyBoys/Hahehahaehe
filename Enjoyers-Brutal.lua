@@ -25,7 +25,7 @@ MENU = gg.multiChoice({
 "📁 Folder Speed Hack",
 "📁 Folder Mode Views Hack",
 "❎ EXIT SCRIPT"
-}, nil, "\n                                🗣💤 ENJOY FOR FUN - BRUTAL 🔞  \n●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\n                                       ➳ Script For Safe - Brutal\n                                        ➳ Resiko Tanggung Sendiri\n●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\n      ᴄᴏᴘʏʀɪɢʜᴛ ® | By gHesss_Boys")
+}, nil, "\n●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\n 🗣💤 ENJOY FOR FUN - BRUTAL 🔞 \n●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\n      ᴄᴏᴘʏʀɪɢʜᴛ ® | By Enjoyers - gHesss_Boys")
 if MENU == nil then
 else
 --if MENU [1] == true then antiban() end
