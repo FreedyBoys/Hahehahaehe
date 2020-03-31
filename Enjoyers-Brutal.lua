@@ -1121,7 +1121,7 @@ function ESP()
 end
 
 function PlayerInGame()
-  MCPlayer = gg.choice({
+  MCPlayer = gg.multiChoice({
     "┏ Sit Down Sᴄᴏᴘᴇ[ᴏN]",
     "┏ Sɪᴛ Down Sᴄᴏᴘᴇ[Oғғ]",
 	"┏ Jumper [Game]",
@@ -1131,9 +1131,9 @@ function PlayerInGame()
   }, nil, "Hack Players")
   if MCPlayer == nil then
   else
-    if MCPlayer == 1 then
-      SITSCOPEON()
-    end
+    if MCPlayer == 1 then 
+	SITSCOPEON()
+	end
     if MCPlayer == 2 then
       SITSCOPEOFF()
     end		
