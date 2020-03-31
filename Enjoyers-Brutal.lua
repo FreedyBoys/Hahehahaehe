@@ -12,7 +12,7 @@ NEW VERSION AVAILABLE Chat Enjoyers - gHesss_Boys]])
   -- Type Your Script Codes Bellow and If Script Isn't Expired Then Script Will Run.
   
 gg.alert("[√] PUBG Mobile Global - Versi 0.17.0") 
-gg.alert("[√] FITUR SAFE:\n \n ROOT & NO ROOT \n1. Wallhack & Collor\n2. Less Recoil\n3. Headshot 50% - 70%")
+gg.alert("[√] FITUR SAFE:\n \n • ROOT & NO ROOT \n1. Wallhack & Collor\n2. Less Recoil\n3. Headshot 50% - 70%")
 HOME = 1
 function HOME()
 MENU = gg.multiChoice({
@@ -25,7 +25,7 @@ MENU = gg.multiChoice({
 "📁 Folder Speed Hack",
 "📁 Folder Mode Views Hack",
 "❎ EXIT SCRIPT"
-}, nil, "\n●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\n 🗣💤 ENJOY FOR FUN - BRUTAL 🔞 \n●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\n      ᴄᴏᴘʏʀɪɢʜᴛ ® | By Enjoyers - gHesss_Boys")
+}, nil, "\n●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\n                🗣💤 ENJOY FOR FUN - BRUTAL 🔞 \n●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\n      ᴄᴏᴘʏʀɪɢʜᴛ ® | By Enjoyers - gHesss_Boys")
 if MENU == nil then
 else
 --if MENU [1] == true then antiban() end
@@ -1538,7 +1538,7 @@ end
 
 	  
 function exit() 
-gg.alert("👋😘 ➿➿ Bye Bye Enjoyers™ ➿➿ 👋😘")
+gg.alert("👋😘 ➿➿ Bye - Bye Enjoyers™ ➿➿ 👋😘")
 os.exit() 
 end 
 while true do
