@@ -1282,7 +1282,7 @@ function Dmg()
   gg.getResults(1401)
   gg.editAll("37401", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("😆 High Damage 👍")
+  gg.toast("High Damage Activated")
 end
 
 function HSWepone()
@@ -1301,6 +1301,7 @@ if MCHS[3] == true then BHS3()end
 if MCHS[4] == true then MB100()end
 if MCHS[5] == true then HOME()end
 end
+MCPBO = -1
 end
 function BHS1()
   gg.clearResults()
@@ -1329,7 +1330,7 @@ function BHS1()
   gg.getResults(10)
   gg.editAll("40", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("😆 Auto Headshot 30% 👍")
+  gg.toast("Auto Headshot 30% Activated")
 end
 function BHS2()
   gg.clearResults()
@@ -1351,7 +1352,7 @@ function BHS2()
   gg.getResults(10)
   gg.editAll("100", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("😆 Auto Headshot 50% 👍")
+  gg.toast("Auto Headshot 50% Activated")
 end 
 function BHS3()
   gg.clearResults()
@@ -1364,7 +1365,7 @@ function BHS3()
   gg.editAll("1203982208", gg.TYPE_QWORD)
   gg.processResume()
   gg.clearResults()
-  gg.toast("😆 Auto Headshot 75% 👍")
+  gg.toast("Auto Headshot 75% Activated")
 end
 function MB100()
   gg.setRanges(gg.REGION_ANONYMOUS)
@@ -1373,7 +1374,7 @@ function MB100()
   gg.getResults(10)
   gg.editAll("1000", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("😆 Magic Bullet 100% 👍")
+  gg.toast("Magic Bullet 100% Activated")
 end
 
 
@@ -1419,7 +1420,7 @@ function LongScope()
   gg.searchNumber("9.49029350281", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(500)
   gg.editAll("-200;-150", gg.TYPE_FLOAT)
-  gg.toast("😆 Long Sit Scope 👍")
+  gg.toast("Long Sit Scope Activated")
 end
 function SITSCOPEON()
   gg.clearResults()
@@ -1793,7 +1794,7 @@ function View30()
   gg.getResults(300)
   gg.editAll("350", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("😆 Wide View 30% 👍")
+  gg.toast("Wide View 30% Activated")
 end
 function View60()
   gg.setRanges(gg.REGION_ANONYMOUS)
@@ -1803,7 +1804,7 @@ function View60()
   gg.getResults(300)
   gg.editAll("438", gg.TYPE_FLOAT)
   gg.clearResults()
-  gg.toast("😆 Wide View 60% 👍")
+  gg.toast("Wide View 60% Activated")
 end
 
 	  
