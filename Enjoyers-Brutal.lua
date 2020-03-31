@@ -25,7 +25,7 @@ MENU = gg.multiChoice({
 "📁 Folder Speed Hack",
 "📁 Folder Mode Views Hack",
 "❎ EXIT SCRIPT"
-}, nil, "\n●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\n                          🗣💤 ENJOY FOR FUN - BRUTAL 🔞 \n●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\n      ᴄᴏᴘʏʀɪɢʜᴛ ® | By Enjoyers - @gHesss_Boys")
+}, nil, "\n●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\n                          🗣💤 ENJOY FOR FUN - BRUTAL 🔞 \n●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\n      ᴄᴏᴘʏʀɪɢʜᴛ ® | By Enjoyers - gHesss_Boys")
 if MENU == nil then
 else
 --if MENU [1] == true then antiban() end
@@ -192,7 +192,7 @@ function WALLHACK()
 end
 	
 function SNAPDRAGON()
-  WHSNAP = gg.choice({
+  WHSPJK = gg.choice({
     "┏ Wallhack All Device",
     "┏ Wallhack SD 450",
     "┏ Wallhack SD 615",
@@ -207,45 +207,45 @@ function SNAPDRAGON()
     "┏ Wallhack SD 855",
     "☑BACK"
   }, nil, "WALLHACK PLAYERS")
-  if WHSNAP == nil then
+  if WHSPJK == nil then
   else
-    if WHSNAP == 1 then
+    if WHSPJK == 1 then
       WHALL()
     end
-    if WHSNAP == 2 then
+    if WHSPJK == 2 then
       WH450()
     end
-    if WHSNAP == 3 then
+    if WHSPJK == 3 then
       WH615()
     end
-    if WHSNAP == 4 then
+    if WHSPJK == 4 then
       WH625()
     end
-    if WHSNAP == 5 then
+    if WHSPJK == 5 then
       WH626()
     end
-    if WHSNAP == 6 then
+    if WHSPJK == 6 then
       WH636()
     end
-    if WHSNAP == 7 then
+    if WHSPJK == 7 then
       WH650()
     end
-    if WHSNAP == 8 then
+    if WHSPJK == 8 then
       WH660()
     end
-    if WHSNAP == 9 then
+    if WHSPJK == 9 then
       WH670()
     end
-    if WHSNAP == 10 then
+    if WHSPJK == 10 then
       WH710()
     end
-    if WHSNAP == 11 then
+    if WHSPJK == 11 then
       WH845()
     end
-    if WHSNAP == 12 then
+    if WHSPJK == 12 then
       WH855()
     end
-    if WHSNAP == 13 then
+    if WHSPJK == 13 then
       HOME()
     end
   end
@@ -480,7 +480,7 @@ end
 
 function EXYNOSS()
   WHMCPBO = gg.choice({
-    "┏ Wallhack Exynos 7420",
+	"┏ Wallhack Exynos 7420",
     "┏ Wallhack Exynos 7570",
     "┏ Wallhack Exynos 7870",
     "┏ Wallhack Exynos 7885",
@@ -488,7 +488,6 @@ function EXYNOSS()
     "┏ Wallhack Exynos 8895",
     "┏ Wallhack Exynos 9610",
     "┏ Wallhack Exynos 9810",
-    "┏ Wallhack Exynos 8895 Collor Green",
     "☑BACK"
   }, nil, "WALLHACK PLAYERS")
   if WHMCPBO == nil then
@@ -516,7 +515,7 @@ function EXYNOSS()
     end
     if WHMCPBO == 8 then
       wh9810()
-    end			
+    end	
     if WHMCPBO == 9 then
       HOME()
     end
@@ -815,7 +814,7 @@ function WHFIX9810()
 end
 
 function collor()
-  MCPBOCLR = gg.choice({
+  SPJKCLR = gg.choice({
     "❤RED",
     "💚GREEN",
     "💛YELLOW",
@@ -825,30 +824,30 @@ function collor()
     "⚪WHITE",
     "☑BACK"
   }, nil, "COLLOR")
-  if MCPBOCLR == nil then
+  if SPJKCLR == nil then
   else
-    if MCPBOCLR == 1 then
+    if SPJKCLR == 1 then
       RED()
     end
-    if MCPBOCLR == 2 then
+    if SPJKCLR == 2 then
       GREEN()
     end
-    if MCPBOCLR == 3 then
+    if SPJKCLR == 3 then
       YELLOW()
     end
-    if MCPBOCLR == 4 then
+    if SPJKCLR == 4 then
       YELLOW2()
     end
-    if MCPBOCLR == 5 then
+    if SPJKCLR == 5 then
       BLUE()
     end
-    if MCPBOCLR == 6 then
+    if SPJKCLR == 6 then
       RAINBOW()
     end
-    if MCPBOCLR == 7 then
+    if SPJKCLR == 7 then
       WHITE()
     end
-    if MCPBOCLR == 8 then
+    if SPJKCLR == 8 then
       HOME()
     end
   end
@@ -1125,19 +1124,31 @@ function PlayerInGame()
   MCPlayer = gg.multiChoice({
     "┏ Sit Down Sᴄᴏᴘᴇ[ᴏN]",
     "┏ Sɪᴛ Down Sᴄᴏᴘᴇ[Oғғ]",
-    "┏ Jumper [Game]",
-    "┏ Super Jump [Game]",
-    "┏ Fast Parasute[Land]",	
+	"┏ Jumper [Game]",
+	"┏ Super Jump [Game]",
+	"┏ Fast Parasute[Land]",	
     "☑BACK"
   }, nil, "Hack Players")
   if MCPlayer == nil then
   else
-    if MCPlayer == 1 true then SITSCOPEON()end
-    if MCPlayer == 2 true then SITSCOPEOFF()end		
-    if MCPlayer == 3 true then Jumpers()end
-    if MCPlayer == 4 true then SUPERJ()end
-    if MCPlayer == 5 true then FASTPARA()end
-    if MCPlayer == 6 true then HOME()end
+    if MCPlayer == 1 then 
+	SITSCOPEON()
+	end
+    if MCPlayer == 2 then
+      SITSCOPEOFF()
+    end		
+	if MCPlayer == 3 then
+      Jumpers()
+	end
+    if MCPlayer == 4 then
+      SUPERJ()
+	end
+    if MCPlayer == 5 then
+      FASTPARA()
+	end
+    if MCPlayer == 6 then
+      HOME()
+    end
   end
 end
 function SITSCOPEON()
