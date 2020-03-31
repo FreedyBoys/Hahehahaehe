@@ -1,4 +1,3 @@
-
 -------------------------------------------------------------------------
 -- Type Your Script all code bellow . if script isnot renamed then script will run .
 -------------------------------------------------------------------------
@@ -12,12 +11,12 @@ NEW VERSION AVAILABLE Chat Enjoyers - gHesss_Boys]])
   end
   -- Type Your Script Codes Bellow and If Script Isn't Expired Then Script Will Run.
   
-gg.alert("🚫 PUBG Mobile Global - Versi 0.17.0") 
-gg.alert("🆘 FITUR SAFE:\n🈵ROOT & NO ROOT: \n1. Wallhack & Collor\n2. Less Recoil\n3. Headshot 50%")
+gg.alert("[√] PUBG Mobile Global - Versi 0.17.0") 
+gg.alert("[√] FITUR SAFE:\n[√] ROOT & NO ROOT: \n1. Wallhack & Collor\n2. Less Recoil\n3. Headshot 50%")
 HOME = 1
 function HOME()
 MENU = gg.multiChoice({
-"💋 Activated Bypass Lobby",
+--"💋 Activated Bypass Lobby",
 "📁 Folder Wallhack",
 "📁 Folder Collor",
 "📁 Folder Weapone Hack",
@@ -26,18 +25,18 @@ MENU = gg.multiChoice({
 "📁 Folder Speed Hack",
 "📁 Folder Mode Views Hack",
 "❎ EXIT SCRIPT"
-}, nil, "\n                                    🗣💤 ENJOY FOR FUN - BRUTAL 🔞  \n●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\n                                       ➳ Script For Safe - Brutal\n                                        ➳ Resiko Tanggung Sendiri\n●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\n      ᴄᴏᴘʏʀɪɢʜᴛ ® | By gHesss_Boys")
+}, nil, "\n                                🗣💤 ENJOY FOR FUN - BRUTAL 🔞  \n●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\n                                       ➳ Script For Safe - Brutal\n                                        ➳ Resiko Tanggung Sendiri\n●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\n      ᴄᴏᴘʏʀɪɢʜᴛ ® | By gHesss_Boys")
 if MENU == nil then
 else
-if MENU [1] == true then antiban() end
-if MENU [2] == true then wh() end
-if MENU [3] == true then collor() end
-if MENU [4] == true then Weapon() end
-if MENU [5] == true then PlayerInGame() end
-if MENU [6] == true then AntenaInGame() end
-if MENU [7] == true then SpeedInGame() end
-if MENU [8] == true then ViewInGame() end
-if MENU [9] == true then exit()  end 
+--if MENU [1] == true then antiban() end
+if MENU [1] == true then WALLHACK() end
+if MENU [2] == true then collor() end
+if MENU [3] == true then Weapon() end
+if MENU [4] == true then PlayerInGame() end
+if MENU [5] == true then AntenaInGame() end
+if MENU [6] == true then SpeedInGame() end
+if MENU [7] == true then ViewInGame() end
+if MENU [8] == true then exit()  end 
 end
 MCPBO = -1
 end
@@ -171,29 +170,43 @@ gg.searchNumber("2.2958874e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 end
     end
 	
-function wh()
+function WALLHACK()
+  WALL = gg.choice({
+    "┏ SNAPDRAGON",
+    "┏ EXYNOS",
+    "☑BACK"
+  }, nil, "WALLHACK PLAYERS")
+  if WALL == nil then
+  else
+    if WALL == 1 then
+      SNAPDRAGON()
+    end
+    if WALL == 2 then
+      EXYNOSS()
+    end
+    if WALL == 3 then
+      HOME()
+    end
+  end
+  MCPBO = -1
+end
+	
+function SNAPDRAGON()
   WHSPJK = gg.choice({
-    "🆔Wallhack All Device",
-    "🆔Wallhack SD 450",
-    "🆔Wallhack SD 615",
-    "🆔Wallhack SD 625",
-    "🆔Wallhack SD 626",
-    "🆔Wallhack SD 636",
-    "🆔Wallhack SD 650",
-    "🆔Wallhack SD 660",
-    "🆔Wallhack SD 670",
-    "🆔Wallhack SD 710",
-    "🆔Wallhack SD 845",
-    "🆔Wallhack SD 855",
-    "♒Walhack MTK P10",
-    "♒Walhack MTK P22",
-    "♒Walhack MTK P60",
-    "♒Walhack MTK P70",
-    "♒Walhack MTK X20",
-    "♒Walhack MTK X25",
-	"♒Walhack Exynos 8895",
-    "✅BACK"
-  }, nil, "WALLHACK")
+    "┏ Wallhack All Device",
+    "┏ Wallhack SD 450",
+    "┏ Wallhack SD 615",
+    "┏ Wallhack SD 625",
+    "┏ Wallhack SD 626",
+    "┏ Wallhack SD 636",
+    "┏ Wallhack SD 650",
+    "┏ Wallhack SD 660",
+    "┏ Wallhack SD 670",
+    "┏ Wallhack SD 710",
+    "┏ Wallhack SD 845",
+    "┏ Wallhack SD 855",
+    "☑BACK"
+  }, nil, "WALLHACK PLAYERS")
   if WHSPJK == nil then
   else
     if WHSPJK == 1 then
@@ -233,27 +246,6 @@ function wh()
       WH855()
     end
     if WHSPJK == 13 then
-      MDP10()
-    end
-    if WHSPJK == 14 then
-      MDP22()
-    end
-    if WHSPJK == 15 then
-      MD60()
-    end
-    if WHSPJK == 16 then
-      MD70()
-    end
-    if WHSPJK == 17 then
-      MD20()
-    end
-    if WHSPJK == 18 then
-      MD25()
-    end
-    if WHSPJK == 19 then
-      Exy8895()
-    end	
-    if WHSPJK == 20 then
       HOME()
     end
   end
@@ -485,299 +477,215 @@ function WH855()
   gg.clearResults()
   gg.toast("Wallhack SD855 activated!")
 end
-function MDP10()
-  gg.searchNumber("8.4077908e-44;4.2038954e-45;1.4012985e-45;5.8294016e-43;2.8025969e-45;2.7550649e-40;4.5917748e-40;0.5;10000", 16, false, 536870912, 0, -1)
-  gg.searchNumber("0.5", 16, false, 536870912, 0, -1)
-  gg.getResults(100)
-  gg.getResultsCount()
-  gg.searchNumber("1.4061078e-19;8.4077908e-44;4.2038954e-45;1.4012985e-45;5.8294016e-43;1.4012985e-45;2.8025969e-45;0.5;10000", 16, false, 536870912, 0, -1)
-  gg.searchNumber("0.5", 16, false, 536870912, 0, -1)
-  gg.getResults(100)
-  gg.getResultsCount()
-  gg.clearResults()
-  gg.searchNumber("0.5F;0.5F;0.00481127109F;0.06090228632F;7.54919099808F;7.12168121338F;6.57414674759F::", 16, false, 536870912, 0, -1)
-  gg.searchNumber("0.5", 16, false, 536870912, 0, -1)
-  gg.getResults(100)
-  gg.editAll("0", 16)
-  gg.clearResults()
-  gg.searchNumber("56;64;48::35", 4, false, 536870912, 0, -1)
-  gg.searchNumber("56", 4, false, 536870912, 0, -1)
-  gg.getResults(100)
-  gg.editAll("47", 4)
-  gg.toast("Mediatek P10")
+
+function EXYNOSS()
+  WHMCPBO = gg.choice({
+	"┏ Wallhack Exynos 7420",
+    "┏ Wallhack Exynos 7570",
+    "┏ Wallhack Exynos 7870",
+    "┏ Wallhack Exynos 7885",
+    "┏ Wallhack Exynos 8890",
+    "┏ Wallhack Exynos 8895",
+    "┏ Wallhack Exynos 9610",
+    "┏ Wallhack Exynos 9810",
+    "☑BACK"
+  }, nil, "WALLHACK PLAYERS")
+  if WHMCPBO == nil then
+  else
+    if WHMCPBO == 1 then
+      wh7420()
+    end
+    if WHMCPBO == 2 then
+      wh7570()
+    end
+    if WHMCPBO == 3 then
+      wh7870()
+    end
+    if WHMCPBO == 4 then
+      wh7885()
+    end
+    if WHMCPBO == 5 then
+      wh8890()
+    end
+    if WHMCPBO == 6 then
+      wh8895()
+    end
+    if WHMCPBO == 7 then
+      wh9610()
+    end
+    if WHMCPBO == 8 then
+      wh9810()
+    end	
+    if WHMCPBO == 9 then
+      HOME()
+    end
+  end
+  MCPBO = -1
 end
-function MDP22()
+function wh7420()
   gg.clearResults()
-  gg.setRanges(4)
-  gg.searchNumber("5;3;1;5", 16, false, 536870912, 0, -1)
-  gg.searchNumber("3", 16, false, 536870912, 0, -1)
-  gg.getResults(16)
-  gg.editAll("120", 16)
-  gg.getResults(100)
-  gg.addListItems({
-    [1] = {
-      address = 498150879472,
-      flags = 16,
-      freeze = true,
-      value = 120
-    },
-    [2] = {
-      address = 498150904048,
-      flags = 16,
-      freeze = true,
-      value = 120
-    },
-    [3] = {
-      address = 498151051504,
-      flags = 16,
-      freeze = true,
-      value = 120
-    },
-    [4] = {
-      address = 498151063792,
-      flags = 16,
-      freeze = true,
-      value = 120
-    },
-    [5] = {
-      address = 498151076080,
-      flags = 16,
-      value = 120
-    },
-    [6] = {
-      address = 498153371944,
-      flags = 16,
-      value = 120
-    },
-    [7] = {
-      address = 498153371952,
-      flags = 16,
-      value = 120
-    },
-    [8] = {
-      address = 498176132392,
-      flags = 16,
-      value = 120
-    },
-    [9] = {
-      address = 498176132400,
-      flags = 16,
-      value = 120
-    },
-    [10] = {
-      address = 498373428740,
-      flags = 16,
-      value = 120
-    },
-    [11] = {
-      address = 498373428748,
-      flags = 16,
-      value = 120
-    },
-    [12] = {
-      address = 498373428972,
-      flags = 16,
-      value = 120
-    },
-    [13] = {
-      address = 498373428988,
-      flags = 16,
-      value = 120
-    },
-    [14] = {
-      address = 498373429700,
-      flags = 16,
-      value = 120
-    },
-    [15] = {
-      address = 498373429708,
-      flags = 16,
-      value = 120
-    },
-    [16] = {
-      address = 498373429932,
-      flags = 16,
-      value = 120
-    },
-    [17] = {
-      address = 498373429948,
-      flags = 16,
-      value = 3
-    },
-    [18] = {
-      address = 498375165736,
-      flags = 16,
-      value = 3
-    },
-    [19] = {
-      address = 498375165744,
-      flags = 16,
-      value = 3
-    },
-    [20] = {
-      address = 498375166504,
-      flags = 16,
-      value = 3
-    },
-    [21] = {
-      address = 498375166512,
-      flags = 16,
-      value = 3
-    },
-    [22] = {
-      address = 498375166888,
-      flags = 16,
-      value = 3
-    },
-    [23] = {
-      address = 498375166896,
-      flags = 16,
-      value = 3
-    },
-    [24] = {
-      address = 498375167272,
-      flags = 16,
-      value = 3
-    },
-    [25] = {
-      address = 498375167280,
-      flags = 16,
-      value = 3
-    },
-    [26] = {
-      address = 498375170728,
-      flags = 16,
-      value = 3
-    },
-    [27] = {
-      address = 498375170736,
-      flags = 16,
-      value = 3
-    },
-    [28] = {
-      address = 498375173416,
-      flags = 16,
-      value = 3
-    },
-    [29] = {
-      address = 498375173424,
-      flags = 16,
-      value = 3
-    },
-    [30] = {
-      address = 498375173800,
-      flags = 16,
-      value = 3
-    },
-    [31] = {
-      address = 498375173808,
-      flags = 16,
-      value = 3
-    },
-    [32] = {
-      address = 498490538756,
-      flags = 16,
-      value = 3
-    },
-    [33] = {
-      address = 498490539140,
-      flags = 16,
-      value = 3
-    },
-    [34] = {
-      address = 498490589828,
-      flags = 16,
-      value = 3
-    },
-    [35] = {
-      address = 498490630788,
-      flags = 16,
-      value = 3
-    },
-    [36] = {
-      address = 498490671748,
-      flags = 16,
-      value = 3
-    },
-    [37] = {
-      address = 498521380300,
-      flags = 16,
-      value = 3
-    },
-    [38] = {
-      address = 498521380460,
-      flags = 16,
-      value = 3
-    },
-    [39] = {
-      address = 498521383644,
-      flags = 16,
-      value = 3
-    },
-    [40] = {
-      address = 498521383884,
-      flags = 16,
-      value = 3
-    },
-    [41] = {
-      address = 498521385196,
-      flags = 16,
-      value = 3
-    },
-    [42] = {
-      address = 498521385516,
-      flags = 16,
-      value = 3
-    },
-    [43] = {
-      address = 498521385756,
-      flags = 16,
-      value = 3
-    }
-  })
+  gg.setRanges(gg.REGION_C_ALLOC)
   gg.clearResults()
-  gg.toast("Mediatek P22 V1")
+  gg.searchNumber("1.8367379e-40;2.8025969e-45;1.9618179e-44;4.2038954e-45;3.1389086e-43;1.4012985e-45;2.7550649e-40;4.5917748e-40;1.0;0.0;0.5:481", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.refineNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+  for _FORV_4_, _FORV_5_ in ipairs((gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil))) do
+    if _FORV_5_.flags == gg.TYPE_FLOAT then
+      _FORV_5_.value = "1"
+      _FORV_5_.freeze = true
+    end
+  end
+  gg.addListItems((gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)))
+  gg.toast("Wallhack Exynos 7420")
 end
-function MD60()
+function wh7570()
   gg.clearResults()
-  gg.setRanges(4)
-  gg.searchNumber("3.8530377e-34;1.2960464e-38;1.4012985e-45;4.2038954e-45;4.2038954e-45;7.0064923e-45;4.2038954e-45;1.4012985e-45;5.1567783e-43;1.4012985e-45;2.8025969e-45;0.5:289", 16, false, 536870912, 0, -1)
-  gg.searchNumber("0.5", 16, false, 536870912, 0, -1)
-  gg.getResults(20)
-  gg.editAll("2", 16)
-  gg.getResults(20)
-  gg.toast("Mediatek60")
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.searchNumber("360;0;0;0;-640;1;1;1;0;0;0;0;1;360;640;0.5;0;0;0;0.5;1;1;0;0;0;0;0;1;1;1;1;1,098618e-48:373", gg.TYPE_FLOAT)
+  gg.searchNumber("0.5", gg.TYPE_FLOAT)
+  t = gg.getResults(10)
+  gg.editAll("50", gg.TYPE_FLOAT)
+  t[1].value = "50"
+  t[2].value = "50"
+  t[3].value = "50"
+  t[4].value = "50"
+  t[5].value = "50"
+  t[6].value = "50"
+  t[1].freeze = true
+  t[2].freeze = true
+  t[3].freeze = true
+  t[4].freeze = true
+  t[5].freeze = true
+  t[6].freeze = true
+  print("addListItems: ", gg.addListItems(t))
+  gg.toast("Wallhack Exynos 7570")
 end
-function MD70()
-  gg.clearResults()
-  gg.setRanges(4)
-  gg.searchNumber("1.793662e-43;3.5873241e-43;1.1210388e-44;0.5", 16, false, 536870912, 0, -1)
-  gg.searchNumber("0.5", 16, false, 536870912, 0, -1)
-  gg.getResults(20)
-  gg.editAll("2", 16)
-  gg.getResults(100)
-  gg.toast("Mediatek70")
+function wh7870()
+  gg.searchNumber("\"0.5;1.4012985e-45;1.4012985e-45;2.8025969e-45:77\"", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.processResume()
+  gg.refineNumber("\"0.5\"", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+  for _FORV_4_, _FORV_5_ in ipairs((gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil))) do
+    if _FORV_5_.flags == gg.TYPE_FLOAT then
+      _FORV_5_.value = "\"1\""
+      _FORV_5_.freeze = true
+    end
+  end
+  gg.addListItems((gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)))
+  gg.processResume()
+  gg.toast("Wallhack Exynos 7870")
 end
-function MD20()
-  gg.clearResults()
-  gg.setRanges(4)
-  gg.searchNumber("0.5;360;640;1;1;1;-640;360::", 16, false, 536870912, 0, -1)
-  gg.searchNumber("0.5", 16, false, 536870912, 0, -1)
-  gg.getResults(20)
-  gg.editAll("0", 16)
-  gg.getResults(100)
-  gg.toast("MEDIATEK20")
+function wh7885()
+  if w == 1 then
+    WHFIX7885()
+  else
+    gg.clearList()
+    gg.clearResults()
+    gg.setRanges(gg.REGION_C_ALLOC)
+    gg.searchNumber("0.5;360;736;1.0;1.0;1.0;1.0;1.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    if gg.getResultCount() == 0 then
+      gg.alert([[
+Continue to activate Wallhack
+Wallhack Exynos 7885]])
+    else
+      gg.searchNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+      _Count = gg.getResultCount()
+      _A = gg.getResults(_Count)
+      last_Count = _Count + 1
+      w = 1
+      _T = "Wallhack Exynos 7885"
+      WHFIX7885()
+    end
+  end
 end
-function MD25()
-  gg.setRanges(4)
-  gg.searchNumber("640.0;360;0.5;0;640;360;0.5;12000;0.27913400531;0.56855899096::", 16, false, 536870912, 0, -1)
-  gg.searchNumber("0.5", 16, false, 536870912, 0, -1)
-  gg.getResults(20)
-  gg.editAll("2", 16)
-  gg.getResults(100)
-  gg.toast("MEDIATEK25")
+function WHFIX7885()
+  if w == 0 then
+    gg.alert([[
+Continue to activate Wallhack
+Wallhack Exynos 7885]])
+  else
+    gg.setVisible(false)
+    _CL = {}
+    for _FORV_3_ = 1, _Count do
+      _CL[_FORV_3_] = "Value" .. _FORV_3_ .. ""
+    end
+    _CL[last_Count] = "Return"
+    _C_ = gg.choice(_CL, nil, "")
+    for _FORV_3_ = 1, _Count do
+      if _C_ == _FORV_3_ then
+        for _FORV_7_, _FORV_8_ in ipairs(_A) do
+          _A[_FORV_7_].freeze = false
+          gg.addListItems(_A)
+        end
+        _A[_FORV_3_].value = 0
+        _A[_FORV_3_].freeze = true
+        gg.addListItems(_A)
+        _FORV_3_ = _Count
+      elseif K_2 == _Count + 1 then
+        EXY7885()
+      end
+    end
+  end
+  gg.setVisible(true)
 end
-function Exy8895()
+_T = "Wallhack Exynos 7885"
+_T, w = 0
+function wh8890()
+  if w == 1 then
+    WHFIX8890()
+  else
+    gg.clearList()
+    gg.clearResults()
+    gg.setRanges(gg.REGION_C_ALLOC)
+    gg.searchNumber("0.5;360;640;1.0;1.0;1.0;1.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    if gg.getResultCount() == 0 then
+      gg.alert([[
+Continue to activate Wallhack
+Wallhack Exynos 8890]])
+    else
+      gg.searchNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+      _Count = gg.getResultCount()
+      _A = gg.getResults(_Count)
+      last_Count = _Count + 1
+      w = 1
+      _T = "Wallhack Exynos 8890"
+      WHFIX8890()
+    end
+  end
+end
+function WHFIX8890()
+  if w == 0 then
+    gg.alert([[
+Continue to activate Wallhack
+Wallhack Exynos 8890]])
+  else
+    gg.setVisible(false)
+    _CL = {}
+    for _FORV_3_ = 1, _Count do
+      _CL[_FORV_3_] = "Value" .. _FORV_3_ .. ""
+    end
+    _CL[last_Count] = "Return"
+    _C_ = gg.choice(_CL, nil, "")
+    for _FORV_3_ = 1, _Count do
+      if _C_ == _FORV_3_ then
+        for _FORV_7_, _FORV_8_ in ipairs(_A) do
+          _A[_FORV_7_].freeze = false
+          gg.addListItems(_A)
+        end
+        _A[_FORV_3_].value = 0
+        _A[_FORV_3_].freeze = true
+        gg.addListItems(_A)
+        _FORV_3_ = _Count
+      elseif K_2 == _Count + 1 then
+        EXY8890()
+      end
+    end
+  end
+  gg.setVisible(true)
+end
+_T = "Wallhack Exynos 8890"
+_T, w = 0
+function wh8895()
   if w == 1 then
     WHFIX8895()
   else
@@ -816,6 +724,77 @@ function WHFIX8895()
     end
     _CL[last_Count] = "⎋BACK"
     _C_ = gg.choice(_CL, nil, "😆 Wallhack Exynos 8895 👍")
+    for _FORV_3_ = 1, _Count do
+      if _C_ == _FORV_3_ then
+        for _FORV_7_, _FORV_8_ in ipairs(_A) do
+          _A[_FORV_7_].freeze = false
+          gg.addListItems(_A)
+        end
+        _A[_FORV_3_].value = 1
+        _A[_FORV_3_].freeze = true
+        gg.addListItems(_A)
+        _FORV_3_ = _Count
+      elseif K_2 == _Count + 1 then
+        CHIPSET()
+      end
+    end
+  end
+  gg.setVisible(true)
+end
+function wh9610()
+  gg.searchNumber("2.8155113e-39;4.20389539e-45;7.00649232e-45;4.20389539e-45;1.79366203e-43;2.80259693e-45;3.58732407e-43;1.12103877e-44;0.5:241", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.processResume()
+  gg.refineNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  revert = gg.getResults(25, nil, nil, nil, nil, nil, nil, nil, nil)
+  for _FORV_4_, _FORV_5_ in ipairs((gg.getResults(25, nil, nil, nil, nil, nil, nil, nil, nil))) do
+    if _FORV_5_.flags == gg.TYPE_FLOAT then
+      _FORV_5_.value = "0"
+      _FORV_5_.freeze = true
+    end
+  end
+  gg.addListItems((gg.getResults(25, nil, nil, nil, nil, nil, nil, nil, nil)))
+  gg.processResume()
+  gg.toast("Wallhack Exynos 9610")
+end
+function wh9810()
+  if w == 1 then
+    WHFIX9810()
+  else
+    gg.clearList()
+    gg.clearResults()
+    gg.setRanges(gg.REGION_C_ALLOC)
+    gg.clearResults()
+    gg.setRanges(gg.REGION_C_ALLOC)
+    gg.searchNumber("0.5;2.8025969e-45;4D;2D;14D;5D;-1D", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.searchNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(100)
+    gg.editAll("0", gg.TYPE_FLOAT)
+    gg.clearResults()
+    gg.searchNumber("0.5;2.8025969e-45;4D;2D;14D;5D;-1D", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    if gg.getResultCount() == 0 then
+      gg.toast("Wallhack Exynos 9810")
+    else
+      gg.searchNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+      _Count = gg.getResultCount()
+      _A = gg.getResults(_Count)
+      last_Count = _Count + 1
+      w = 1
+      _T = "Wallhack Exynos 9810"
+      WHFIX9810()
+    end
+  end
+end
+function WHFIX9810()
+  if w == 0 then
+    gg.toast("Loading...")
+  else
+    gg.setVisible(false)
+    _CL = {}
+    for _FORV_3_ = 1, _Count do
+      _CL[_FORV_3_] = "Edit Wallhack Value " .. _FORV_3_ .. ""
+    end
+    _CL[last_Count] = "⎋BACK"
+    _C_ = gg.choice(_CL, nil, "Wallhack Exynos 9810")
     for _FORV_3_ = 1, _Count do
       if _C_ == _FORV_3_ then
         for _FORV_7_, _FORV_8_ in ipairs(_A) do
@@ -943,7 +922,8 @@ function Weapon()
   MCWeapon = gg.multiChoice({
     "┏ Less Recoil [Loby]",
     "┏ No Recoil [Loby]",
-	"┏ Aimbot [Loby]",
+	"┏ AimLock [Loby]",
+	"┏ Aimbot [Game]",
 	"┏ HS 50% [Land]",
     "┏ HS 70% [Land]",
 	"┏ MB - HS Brutal [Land]",
@@ -956,12 +936,13 @@ else
 if MCWeapon[1] == true then lessrec()end
 if MCWeapon[2] == true then norec()end
 if MCWeapon[3] == true then aimbot()end
-if MCWeapon[4] == true then mbhs1()end
-if MCWeapon[5] == true then mbhs2()end
-if MCWeapon[6] == true then mbhs3()end
-if MCWeapon[7] == true then ESPAIM()end
-if MCWeapon[8] == true then ESP()end
-if MCWeapon[9] == true then HOME()end
+if MCWeapon[4] == true then aimbot360()end
+if MCWeapon[5] == true then mbhs1()end
+if MCWeapon[6] == true then mbhs2()end
+if MCWeapon[7] == true then mbhs3()end
+if MCWeapon[8] == true then ESPAIM()end
+if MCWeapon[9] == true then ESP()end
+if MCWeapon[10] == true then HOME()end
 end
 end
 function lessrec()
@@ -1021,8 +1002,28 @@ gg.getResults(80)
 gg.editAll("0",gg.TYPE_DWORD)
 gg.toast("Aimbot Activated!!")
 end
+function aimbot360()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("3.5;1;0.5;200;20::", gg.TYPE_FLOAT)
+  gg.getResults(200)
+  gg.editAll("999999999", gg.TYPE_FLOAT)
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("6.0;2.0;1.0::99", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("101", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("-88.82363891602F;15.0F;1", gg.TYPE_FLOAT)
+  gg.searchNumber("1", gg.TYPE_FLOAT)
+  gg.getResults(1000)
+  gg.editAll("20000000000000", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("Aimbot activated!")
+end
 function mbhs1() 
-gg.clearResults()
+gg.alert("HEADSHOT 50% ")
 gg.clearResults()
 gg.setRanges(gg.REGION_ANONYMOUS)
 gg.searchNumber("9.20161819458;23;25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
@@ -1031,18 +1032,20 @@ gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(10)
 gg.editAll("90", gg.TYPE_FLOAT)
 gg.clearResults()
-gg.toast("Magic Bulet HS (Pushrank) Activated!!")
+gg.toast("ʜᴇᴀᴅsʜᴏᴛ 50% Activated!!")
 end
 function mbhs2()
-gg.alert("HEDSHOT 70% ")
+gg.alert("HEADSHOT 70% ")
 gg.clearResults()
 gg.setRanges(32)
 gg.searchNumber("30.5;25", 16, false, 536870912, 0, -1)
 gg.getResults(10)
 gg.editAll("100", 16)
+gg.clearResults()
 gg.toast("ʜᴇᴀᴅsʜᴏᴛ 70%")
 end
 function mbhs3()
+gg.alert("MB - HEDSHOT BRUTAL ")
 gg.setRanges(gg.REGION_BAD)
 gg.searchNumber("-88.66608428955;26", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("26", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
@@ -1060,7 +1063,7 @@ gg.searchNumber("30.5;25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(10)
 gg.editAll("280", gg.TYPE_FLOAT)
 gg.clearResults()
-gg.toast("Magic Bulet HS (Brutal) Activated!!")
+gg.toast("MB - HEDSHOT (Brutal) Activated!!")
 end
 function ESPAIM()
   gg.clearResults()
@@ -1121,6 +1124,7 @@ function PlayerInGame()
   MCPlayer = gg.choice({
     "┏ Sit Down Sᴄᴏᴘᴇ[ᴏN]",
     "┏ Sɪᴛ Down Sᴄᴏᴘᴇ[Oғғ]",
+	"┏ Jumper [Game]",
 	"┏ Super Jump [Game]",
 	"┏ Fast Parasute[Land]",	
     "☑BACK"
@@ -1133,13 +1137,16 @@ function PlayerInGame()
     if MCPlayer == 2 then
       SITSCOPEOFF()
     end		
-    if MCPlayer == 3 then
-      SUPERJ()
+	if MCPlayer == 3 then
+      Jumpers()
 	end
     if MCPlayer == 4 then
-      FASTPARA()
+      SUPERJ()
 	end
     if MCPlayer == 5 then
+      FASTPARA()
+	end
+    if MCPlayer == 6 then
       HOME()
     end
   end
@@ -1170,6 +1177,15 @@ function SITSCOPEOFF()
   gg.clearResults()
   gg.toast("Sit Scope Deactivated!")
 end
+function Jumpers()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("1;-0.70710676908;0.70710670948;64;1.793662e-43;1.4012985e-45;1D;1D::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1.4012985e-45", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(9999)
+  gg.editAll("999", gg.TYPE_FLOAT)
+  gg.toast("Jumper Activated")
+  end
 function SUPERJ()
   gg.clearResults()
   gg.setRanges(gg.REGION_ANONYMOUS)
@@ -1188,9 +1204,7 @@ function SUPERJ()
   gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(100)
   gg.editAll("1.7", gg.TYPE_FLOAT)
-  gg.clearResults()
   gg.toast("Super Jump Activated")
-  gg.clearResults()
 end
 function FASTPARA()
   gg.clearResults()
@@ -1484,8 +1498,8 @@ end
 
 function ViewInGame()
   MCView = gg.choice({
-    "☑️ Wide View 30% [Game]",
-    "☑️ Wide View 60% [Game]",
+    "┏ Wide View 30% [Game]",
+    "┏ Wide View 60% [Game]",
     "☑BACK"
   }, nil, "Mode View Players")
   if MCView == nil then
@@ -1524,7 +1538,7 @@ end
 
 	  
 function exit() 
-gg.alert("👋😘 ➿➿ Bye Bye Enjoyers ➿➿ ™🔴🔵⚪⚫")
+gg.alert("👋😘 ➿➿ Bye Bye Enjoyers™ ➿➿ ")
 os.exit() 
 end 
 while true do
