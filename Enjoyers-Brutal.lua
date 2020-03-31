@@ -488,6 +488,7 @@ function EXYNOSS()
     "┏ Wallhack Exynos 8895",
     "┏ Wallhack Exynos 9610",
     "┏ Wallhack Exynos 9810",
+    "┏ Wallhack Exynos 8895 Collor Green",			
     "☑BACK"
   }, nil, "WALLHACK PLAYERS")
   if WHMCPBO == nil then
@@ -517,6 +518,9 @@ function EXYNOSS()
       wh9810()
     end	
     if WHMCPBO == 9 then
+      EXY8895()
+    end			
+    if WHMCPBO == 10 then
       HOME()
     end
   end
@@ -812,9 +816,42 @@ function WHFIX9810()
   end
   gg.setVisible(true)
 end
+function EXY8895()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.searchNumber("40;32;16;2::37", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("40", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(9)
+  gg.editAll("38", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.searchNumber("1.067767e-39;0.5::257", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(9)
+  gg.getResultsCount()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.searchNumber("1.251438e-39;0.5::273", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(9)
+  gg.getResultsCount()
+  gg.clearResults()
+  gg.searchNumber("573.70306396484;0.05499718333.1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(1200)
+  gg.editAll("-999", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.searchNumber("56; 64; 48: 35", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("56", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("58", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.toast("Wallhack Exynose 8895 & Color Green")
+end
 
 function collor()
-  SPJKCLR = gg.choice({
+  MCPBOCLR = gg.choice({
     "❤RED",
     "💚GREEN",
     "💛YELLOW",
@@ -824,30 +861,30 @@ function collor()
     "⚪WHITE",
     "☑BACK"
   }, nil, "COLLOR")
-  if SPJKCLR == nil then
+  if MCPBOCLR == nil then
   else
-    if SPJKCLR == 1 then
+    if MCPBOCLR == 1 then
       RED()
     end
-    if SPJKCLR == 2 then
+    if MCPBOCLR == 2 then
       GREEN()
     end
-    if SPJKCLR == 3 then
+    if MCPBOCLR == 3 then
       YELLOW()
     end
-    if SPJKCLR == 4 then
+    if MCPBOCLR == 4 then
       YELLOW2()
     end
-    if SPJKCLR == 5 then
+    if MCPBOCLR == 5 then
       BLUE()
     end
-    if SPJKCLR == 6 then
+    if MCPBOCLR == 6 then
       RAINBOW()
     end
-    if SPJKCLR == 7 then
+    if MCPBOCLR == 7 then
       WHITE()
     end
-    if SPJKCLR == 8 then
+    if MCPBOCLR == 8 then
       HOME()
     end
   end
