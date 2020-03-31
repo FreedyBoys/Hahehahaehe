@@ -1299,7 +1299,7 @@ if MCHS[1] == true then BHS1()end
 if MCHS[2] == true then BHS2()end
 if MCHS[3] == true then BHS3()end
 if MCHS[4] == true then MB100()end
-if MCHS[10] == true then HOME()end
+if MCHS[5] == true then HOME()end
 end
 end
 function BHS1()
