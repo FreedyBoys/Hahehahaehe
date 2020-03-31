@@ -12,7 +12,7 @@ NEW VERSION AVAILABLE Chat Enjoyers - gHesss_Boys]])
   -- Type Your Script Codes Bellow and If Script Isn't Expired Then Script Will Run.
   
 gg.alert("[√] PUBG Mobile Global - Versi 0.17.0") 
-gg.alert("[√] FITUR SAFE:\n[√] ROOT & NO ROOT: \n1. Wallhack & Collor\n2. Less Recoil\n3. Headshot 50%")
+gg.alert("[√] FITUR SAFE:\n \n ROOT & NO ROOT \n1. Wallhack & Collor\n2. Less Recoil\n3. Headshot 50% - 70%")
 HOME = 1
 function HOME()
 MENU = gg.multiChoice({
@@ -1538,7 +1538,7 @@ end
 
 	  
 function exit() 
-gg.alert("👋😘 ➿➿ Bye Bye Enjoyers™ ➿➿ ")
+gg.alert("👋😘 ➿➿ Bye Bye Enjoyers™ ➿➿ 👋😘")
 os.exit() 
 end 
 while true do
