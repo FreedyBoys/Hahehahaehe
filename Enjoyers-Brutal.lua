@@ -1121,7 +1121,7 @@ function ESP()
 end
 
 function PlayerInGame()
-  MCPlayer = gg.multiChoice({
+  MCPlayer = gg.choice({
     "┏ Sit Down Sᴄᴏᴘᴇ[ᴏN]",
     "┏ Sɪᴛ Down Sᴄᴏᴘᴇ[Oғғ]",
 	"┏ Jumper [Game]",
