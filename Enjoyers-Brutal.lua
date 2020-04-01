@@ -28,15 +28,15 @@ MENU = gg.multiChoice({
 }, nil, "\n●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\n                          🗣💤 ENJOY FOR FUN - BRUTAL 🔞 \n●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\n      ᴄᴏᴘʏʀɪɢʜᴛ ® | By Enjoyers - gHesss_Boys")
 if MENU == nil then
 else
---if MENU [1] == true then antiban() end
-if MENU [1] == true then WALLHACK() end
-if MENU [2] == true then collor() end
-if MENU [3] == true then Weapon() end
-if MENU [4] == true then PlayerInGame() end
-if MENU [5] == true then AntenaInGame() end
-if MENU [6] == true then SpeedInGame() end
-if MENU [7] == true then ViewInGame() end
-if MENU [8] == true then exit()  end 
+if MENU [1] == true then antiban() end
+if MENU [2] == true then WALLHACK() end
+if MENU [3] == true then collor() end
+if MENU [4] == true then Weapon() end
+if MENU [5] == true then PlayerInGame() end
+if MENU [6] == true then AntenaInGame() end
+if MENU [7] == true then SpeedInGame() end
+if MENU [8] == true then ViewInGame() end
+if MENU [9] == true then exit()  end 
 end
 MCPBO = -1
 end
