@@ -1,7 +1,7 @@
 -------------------------------------------------------------------------
 -- Type Your Script all code bellow . if script isnot renamed then script will run .
 -------------------------------------------------------------------------
-Date = "20300429"--Type Here Your Script End Date .
+Date = "20300419"--Type Here Your Script End Date .
 date = os.date("%Y%m%d")
 if date >= Date then
   print([[⚠ Daamn....!!! SCRIPT EXPIRED ⚠
@@ -16,7 +16,7 @@ gg.alert("[√] FITUR SAFE:\n \n • ROOT & NO ROOT \n1. Wallhack & Collor\n2. L
 HOME = 1
 function HOME()
 MENU = gg.multiChoice({
---"💋 Activated Bypass Lobby",
+"💋 Activated Bypass Lobby",
 "📁 Folder Wallhack",
 "📁 Folder Collor",
 "📁 Folder Weapone Hack",
