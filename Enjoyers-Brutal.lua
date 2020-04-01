@@ -15,7 +15,8 @@ gg.alert("[√] PUBG Mobile Global - Versi 0.17.0")
 gg.alert("[√] FITUR SAFE:\n \n • ROOT & NO ROOT \n1. Wallhack & Collor\n2. Less Recoil\n3. Headshot 50% - 70%")
 HOME = 1
 function HOME()
-MENU = gg.multiChoice({
+MENU = gg.multiChoice(
+{
 "💋 Activated Bypass Lobby",
 "📁 Folder Wallhack",
 "📁 Folder Collor",
