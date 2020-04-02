@@ -1,12 +1,12 @@
 -------------------------------------------------------------------------
 -- Type Your Script all code bellow . if script isnot renamed then script will run .
 -------------------------------------------------------------------------
-Date = "20300419"--Type Here Your Script End Date .
+Date = "20200404"--Type Here Your Script End Date .
 date = os.date("%Y%m%d")
 if date >= Date then
   print([[⚠ Daamn....!!! SCRIPT EXPIRED ⚠
   
-NEW VERSION AVAILABLE Chat Enjoyers - gHesss_Boys]])
+NEW VERSION AVAILABLE Chat Enjoyers - @gHesss_Boys]])
   return
   end
   -- Type Your Script Codes Bellow and If Script Isn't Expired Then Script Will Run.
@@ -17,7 +17,7 @@ HOME = 1
 function HOME()
 MENU = gg.multiChoice(
 {
-"💋 Activated Bypass Lobby",
+--"💋 Activated Bypass Lobby",
 "📁 Folder Wallhack",
 "📁 Folder Collor",
 "📁 Folder Weapone Hack",
@@ -489,7 +489,7 @@ function EXYNOSS()
     "┏ Wallhack Exynos 8895",
     "┏ Wallhack Exynos 9610",
     "┏ Wallhack Exynos 9810",
-    "┏ Wallhack Exynos 8895 Collor Green",			
+    --"┏ Wallhack Exynos 8895 Collor Green",			
     "☑BACK"
   }, nil, "WALLHACK PLAYERS")
   if WHMCPBO == nil then
@@ -1381,7 +1381,7 @@ end
 
 function PlayerInGame()
   MCPlayer = gg.choice({
-    "┏ Long Sit Down Sᴄᴏᴘᴇ[Game]",
+    --"┏ Long Sit Down Sᴄᴏᴘᴇ[Game]",
     "┏ Sit Down Sᴄᴏᴘᴇ[ᴏN]",
     "┏ Sɪᴛ Down Sᴄᴏᴘᴇ[Oғғ]",
 	"┏ Jumper [Game]",
