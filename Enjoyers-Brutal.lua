@@ -11,7 +11,7 @@ NEW VERSION AVAILABLE Chat Enjoyers - @gHesss_Boys]])
   end
   -- Type Your Script Codes Bellow and If Script Isn't Expired Then Script Will Run.
   
-gg.alert("[√] PUBG Mobile Global - Versi 0.17.0") 
+gg.alert("[√] PUBG Mobile Global - Creator @gHesss_Boys") 
 gg.alert("[√] FITUR SAFE:\n \n • ROOT & NO ROOT \n1. Wallhack & Collor\n2. Less Recoil\n3. Headshot 50% - 70%")
 HOME = 1
 function HOME()
@@ -29,147 +29,17 @@ MENU = gg.multiChoice(
 }, nil, "\n●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\n                          🗣💤 ENJOY FOR FUN - BRUTAL 🔞 \n●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\n      ᴄᴏᴘʏʀɪɢʜᴛ ® | By Enjoyers - gHesss_Boys")
 if MENU == nil then
 else
-if MENU [1] == true then antiban() end
-if MENU [2] == true then WALLHACK() end
-if MENU [3] == true then collor() end
-if MENU [4] == true then Weapon() end
-if MENU [5] == true then PlayerInGame() end
-if MENU [6] == true then AntenaInGame() end
-if MENU [7] == true then SpeedInGame() end
-if MENU [8] == true then ViewInGame() end
-if MENU [9] == true then exit()  end 
+if MENU [1] == true then WALLHACK() end
+if MENU [2] == true then collor() end
+if MENU [3] == true then Weapon() end
+if MENU [4] == true then PlayerInGame() end
+if MENU [5] == true then AntenaInGame() end
+if MENU [6] == true then SpeedInGame() end
+if MENU [7] == true then ViewInGame() end
+if MENU [8] == true then exit()  end 
 end
 MCPBO = -1
 end
-
-function antiban()
-gg.clearResults()
-  gg.setRanges(gg.REGION_C_ALLOC)
-  gg.searchNumber("2.2958874e-41;16384D;16384D;16384D;16384D;16384D::24", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  if gg.getResultCount() == 0 then
-    gg.alert('ᴀɴᴛɪ-ʙᴀɴ ɴᴏᴛ ᴀᴄᴛɪᴠᴀᴛᴇᴅ')
-gg.alert('Try Again Or Restart ɢᴀᴍᴇ')
-  else
-gg.searchNumber("2.2958874e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-   resultsCount = gg.getResultCount()
-    results = gg.getResults(resultsCount)
-    for x = 1, resultsCount do    
-      gg.addListItems({            
-        [1] = {
-          address = results[x].address - 252,
-          flags = 4,
-          freeze = true,
-          value = 70086
-        }
-      })      
-      gg.addListItems({
-        [1] = {
-          address = results[x].address - 236,
-          flags = 4,
-          freeze = true,
-          value = 70086
-        }
-      })
-      gg.addListItems({
-        [1] = {
-          address = results[x].address - 232,
-          flags = 4,
-          freeze = true,
-          value = 70086
-        }
-      })
-      gg.addListItems({
-        [1] = {
-          address = results[x].address - 72,
-          flags = 4,
-          freeze = true,
-          value = 70086
-        }
-      })
-            gg.addListItems({
-        [1] = {
-          address = results[x].address - 72,
-          flags = 4,
-          freeze = true,
-          value = 70086
-        }
-      })
-      gg.addListItems({
-        [1] = {
-          address = results[x].address - 68,
-          flags = 4,
-          freeze = true,
-          value = 70086
-        }
-      })
-      gg.addListItems({
-        [1] = {
-          address = results[x].address - 64,
-              flags = 4,
-          freeze = true,
-          value = 70086
-        }
-      })
-      gg.addListItems({
-        [1] = {
-          address = results[x].address + 64,
-          flags = 4,
-          freeze = true,
-          value = 70086
-        }
-      })
-  gg.addListItems({
-        [1] = {
-          address = results[x].address + 68,
-          flags = 4,
-          freeze = true,
-          value = 70086
-        }
-      })
-      gg.addListItems({
-        [1] = {
-          address = results[x].address + 100,
-          flags = 4,
-          freeze = true,
-          value = 4451
-        }
-      })     
-       gg.addListItems({
-        [1] = {
-          address = results[x].address + 512,
-          flags = 4,
-          freeze = true,
-          value = 0
-        }
-      })
-        gg.addListItems({
-        [1] = {
-          address = results[x].address + 540,
-          flags = 4,
-          freeze = true,
-          value = 70086
-        }
-      })
-         gg.addListItems({
-        [1] = {
-          address = results[x].address + 544,
-          flags = 4,
-          freeze = true,
-          value = 70086
-        }
-      })
-          gg.addListItems({
-        [1] = {
-          address = results[x].address + 548,
-          flags = 4,
-          freeze = true,
-          value = 70086
-        }
-      })
-      gg.alert('ᴀɴᴛɪ-ʙᴀɴ ᴀᴄᴛɪᴠᴀᴛᴇᴅ!')
-    end
-end
-    end
 	
 function WALLHACK()
   WALL = gg.choice({
@@ -488,8 +358,7 @@ function EXYNOSS()
     "┏ Wallhack Exynos 8890",
     "┏ Wallhack Exynos 8895",
     "┏ Wallhack Exynos 9610",
-    "┏ Wallhack Exynos 9810",
-    --"┏ Wallhack Exynos 8895 Collor Green",			
+    "┏ Wallhack Exynos 9810",		
     "☑BACK"
   }, nil, "WALLHACK PLAYERS")
   if WHMCPBO == nil then
@@ -517,11 +386,8 @@ function EXYNOSS()
     end
     if WHMCPBO == 8 then
       wh9810()
-    end	
-    if WHMCPBO == 9 then
-      EXY8895()
     end			
-    if WHMCPBO == 10 then
+    if WHMCPBO == 9 then
       HOME()
     end
   end
@@ -816,39 +682,6 @@ function WHFIX9810()
     end
   end
   gg.setVisible(true)
-end
-function EXY8895()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_C_ALLOC)
-  gg.searchNumber("40;32;16;2::37", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("40", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(9)
-  gg.editAll("38", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_C_ALLOC)
-  gg.searchNumber("1.067767e-39;0.5::257", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(9)
-  gg.getResultsCount()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_C_ALLOC)
-  gg.searchNumber("1.251438e-39;0.5::273", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(9)
-  gg.getResultsCount()
-  gg.clearResults()
-  gg.searchNumber("573.70306396484;0.05499718333.1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("1.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(1200)
-  gg.editAll("-999", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_C_ALLOC)
-  gg.searchNumber("56; 64; 48: 35", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("56", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(100)
-  gg.editAll("58", gg.TYPE_DWORD)
-  gg.clearResults()
-  gg.toast("Wallhack Exynose 8895 & Color Green")
 end
 
 function collor()
@@ -1381,7 +1214,6 @@ end
 
 function PlayerInGame()
   MCPlayer = gg.choice({
-    --"┏ Long Sit Down Sᴄᴏᴘᴇ[Game]",
     "┏ Sit Down Sᴄᴏᴘᴇ[ᴏN]",
     "┏ Sɪᴛ Down Sᴄᴏᴘᴇ[Oғғ]",
 	"┏ Jumper [Game]",
@@ -1392,36 +1224,24 @@ function PlayerInGame()
   if MCPlayer == nil then
   else
     if MCPlayer == 1 then 
-	LongScope()
-	end 
-    if MCPlayer == 2 then 
 	SITSCOPEON()
 	end
-    if MCPlayer == 3 then
+    if MCPlayer == 2 then
       SITSCOPEOFF()
     end		
-	if MCPlayer == 4 then
+	if MCPlayer == 3 then
       Jumpers()
 	end
-    if MCPlayer == 5 then
+    if MCPlayer == 4 then
       SUPERJ()
 	end
-    if MCPlayer == 6 then
+    if MCPlayer == 5 then
       FASTPARA()
 	end
-    if MCPlayer == 7 then
+    if MCPlayer == 6 then
       HOME()
     end
   end
-end
-function LongScope()
-  gg.clearResults()
-  gg.setRanges(gg.REGION_ANONYMOUS)
-  gg.searchNumber("-0.67914116382599;-0.20633073151112;-0.68966287374496;9.49029350281;0.0064272880554199::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("9.49029350281", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(500)
-  gg.editAll("-200;-150", gg.TYPE_FLOAT)
-  gg.toast("Long Sit Scope Activated")
 end
 function SITSCOPEON()
   gg.clearResults()
