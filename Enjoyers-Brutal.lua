@@ -1,7 +1,7 @@
 -------------------------------------------------------------------------
 -- Type Your Script all code bellow . if script isnot renamed then script will run .
 -------------------------------------------------------------------------
-Date = "20200404"--Type Here Your Script End Date .
+Date = "20200406"--Type Here Your Script End Date .
 date = os.date("%Y%m%d")
 if date >= Date then
   print([[⚠ Daamn....!!! SCRIPT EXPIRED ⚠
